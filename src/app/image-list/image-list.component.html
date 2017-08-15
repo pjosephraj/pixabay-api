@@ -1,0 +1,17 @@
+<form (ngSubmit)="loadImages(searchQuery)">
+  <md-input-container class="search-input">
+    <input mdInput placeholder="Search for images" name="searchQuery" [(ngModel)]="searchQuery" required>
+  </md-input-container>
+  <button md-raised-button class="bg-primary white-text">Search Images</button>
+</form>
+<div class="images-container">
+  <md-progress-bar mode="indeterminate" *ngIf="dataLoaded" [ngStyle]="{'margin-bottom': '20px'}"></md-progress-bar>
+  <md-card *ngIf="noImages">Sorry there are no Images for this search query, Please try another...</md-card>
+  <masonry [useImagesLoaded]="true" class="masonry-container">
+    <masonry-brick *ngFor="let image of images" class="masonry-brick-block">
+      <a href="{{ image.pageURL }}" target="_blank">
+        <app-image-card [image]="image" class="image-card"></app-image-card>
+      </a>
+    </masonry-brick>
+  </masonry>
+</div>

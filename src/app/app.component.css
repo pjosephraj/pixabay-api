@@ -1,0 +1,26 @@
+.image-list-container{
+  border: 1px solid #ddd;
+  padding: 30px 40px;
+}
+
+.logo{
+  height: 15px;
+  margin-top: 35px;
+  width: auto;
+}
+
+header a{
+  color: #3F51B5;
+}
+
+footer a{
+  margin: 10px 20px;
+  color: #3F51B5;
+  opacity: .5;
+  transition: all .3s;
+}
+
+footer a:hover{
+  color: #333;
+  opacity: 1;
+}

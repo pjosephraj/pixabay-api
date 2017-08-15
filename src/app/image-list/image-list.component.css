@@ -1,0 +1,34 @@
+.search-input{
+  width: 100%;
+}
+
+.images-container{
+  margin-top: 30px;
+}
+
+.image-card{
+  padding: 10px;
+  display: block;
+}
+
+.masonry-container{
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.masonry-brick-block{
+  width: 100%;
+}
+
+@media screen and (min-width: 600px){
+  .masonry-brick-block{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .masonry-brick-block{
+    width: 33%;
+  }
+}
+

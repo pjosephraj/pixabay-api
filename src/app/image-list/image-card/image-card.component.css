@@ -1,0 +1,15 @@
+
+.card-image{
+  margin-top: 0;
+}
+
+.tag-chips{
+  font-size: 0.85em !important;
+  padding: 5px 10px !important;
+  margin: 0 5px 5px !important;
+}
+
+.footer p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
