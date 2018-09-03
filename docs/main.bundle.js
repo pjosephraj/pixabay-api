@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <header class=\"clearfix\">\n    <a href=\"https://pjosephraj.github.io/\" class=\"left\"><h2>Pixabay Image Search</h2></a>\n    <a href=\"https://pixabay.com/\" target=\"_blank\" class=\"right\">\n      <img class=\"logo\" src=\"assets/pixabay-logo.png\" alt=\"Pixabay logo\">\n    </a>\n  </header>\n  <div class=\"image-list-container\">\n    <app-image-list></app-image-list>\n  </div>\n  <footer>\n    <a href=\"https://pjosephraj.github.io/\" class=\"left\">Resume</a>\n    <a href=\"https://github.com/pjosephraj/pixabay-api\" target=\"_blank\" class=\"right\">Source Code</a>\n  </footer>\n</div>\n"
+module.exports = "<div class=\"container\">\n  <header class=\"clearfix\">\n    <a href=\"https://pjosephraj.github.io/\" class=\"left\"><h2>Pixabay Image Search</h2></a>\n    <a href=\"https://pixabay.com/\" target=\"_blank\" class=\"right\">\n      <img class=\"logo\" src=\"assets/pixabay-logo.png\" alt=\"Pixabay logo\">\n    </a>\n  </header>\n  <div class=\"image-list-container\">\n    <app-image-list></app-image-list>\n  </div>\n  \n</div>\n"
 
 /***/ }),
 
